@@ -9,13 +9,14 @@ Since there is a demand supply mismatch, it leads to inventory loss to the compa
 ## 1.3 Source/Link of Dataset
 https://drive.google.com/drive/folders/10zVYtUH-74K7nvXIGu3XZnrsSF44k9Jm
 ## 1.4 Real-world/Business objectives and constraints.
-Analyze the demand pattern in different pockets of the country
-Interpretability is important
-Minimize errors as these can lead to inventory loss
+- Analyze the demand pattern in different pockets of the country
+- Interpretability is important
+- Minimize errors as these can lead to inventory loss
 # 2. Machine Learning Problem Formulation
 ## 2.1 Data
 ## 2.1.1 Data Overview
 Source: https://drive.google.com/drive/folders/10zVYtUH-74K7nvXIGu3XZnrsSF44k9Jm
+
 We have one file named Dataset.csv which contains the data/information about the nature of the location and inventory management.
 Number of columns in dataset: 24
 Number of rows in dataset: 25000
@@ -32,6 +33,6 @@ WH_100001,EID_50001,Rural,Large,North,Zone 5,0,0,4,6217,Company Owned,47,0,0,1,2
 We have to predict the weight(in tonnes) to be supplied ==> Regression Problem
 
 ## 2.2.2 Performance Metric
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-R-Squared
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- R-Squared
